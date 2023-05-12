@@ -5,6 +5,8 @@
 
 *Roles*: Designer, Platform Engineer
 
+[Demo Video Link Here](https://youtu.be/Wdj2dl3ELoE)
+
 ## Description
 
 This project will be deploying a **Jenkins** image, which is a CI/CD service, on GKE (Google Kubernetes Engine) using **Helm**. **GKE** will be deployed using **Terraform** which is an infrastructure as code tool.
