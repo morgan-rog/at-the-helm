@@ -1,13 +1,13 @@
 # at-the-helm
 ## About
 
-Creator: Morgan Rogers
+*Creator*: Morgan Rogers
 
-Roles: Designer, Platform Engineer
+*Roles*: Designer, Platform Engineer
 
 ## Description
 
-This project will be deploying Jenkins, which is a CI/CD service, on GKE (Google Kubernetes Engine). The GKE will be deployed using Terraform which is an infrastructure as code tool.
+This project will be deploying a **Jenkins** image, which is a CI/CD service, on GKE (Google Kubernetes Engine) using **Helm**. **GKE** will be deployed using **Terraform** which is an infrastructure as code tool.
 
 ## Motivation
 
@@ -15,8 +15,21 @@ I (Morgan) currently work as a Platform Engineer and my team is starting to work
 
 ## Tools/Technologies
 
-Terraform (for deploying GKE and Google Compute Network), GKE (Kubernetes), Helm (configuration and installation of Jenkins), kubectl (command line tool for interacting with kubernetes).
+- **Terraform** (for deploying GKE and Google Compute Network)
+- **GKE** (Google Kubernetes Engine)
+- **Helm** (configuration and installation of Jenkins)
+- **Jenkins** (the application being deployed on GKE)
 
 ## System Architecture
 
 ![lucid chart](images/at-the-helm-lucid-chart.png)
+
+## More Information on the Tools Used
+
+- **Terraform** is an infrastructure as code tool that allows for the definition cloud resources in human-readable configuration files that can be versioned, reused, and shared.
+- **GKE** is Google's hosted version of Kubernetes which is a powerful cluster manager and orchestration system for containers.
+- **Helm** is a tool that automates the creation, packaging, configuration, and deployment of Kubernetes applications by combining Kubernetes configuration files into a single package.
+- **Jenkins** is an open-source automation server that allows for orchestration of build, test, and deployment pipelines.
+
+[More Documentation Here](/documentation/)
+
