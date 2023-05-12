@@ -7,3 +7,4 @@
 **Helpful links**
 - [Jenkins Helm Charts Repo](https://github.com/jenkinsci/helm-charts)
 - [Jenkins Helm Chart Install Documentation](https://github.com/jenkinsci/helm-charts/blob/main/charts/jenkins/README.md)
+- [Jenkins install on GKE tutorial](https://cloud.google.com/kubernetes-engine/docs/archive/jenkins-on-kubernetes-engine-tutorial)
